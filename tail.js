@@ -5,6 +5,7 @@ const tail = function(array) {
   return arrTail;
 };
 
+// ASSERTION FUNCTION(S)
 const assertEqual = function(actual, expected) {
   if (JSON.stringify(actual) === JSON.stringify(expected)) {
     console.log(`😀😀😀 Assertion Passed: ${actual} === ${expected}`);

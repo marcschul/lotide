@@ -1,4 +1,4 @@
-// FUNCTION(s)
+// FUNCTION(S)
 const flatten = function(array) {
   const newArr = [];
   for (let element of array) {
@@ -13,6 +13,7 @@ const flatten = function(array) {
   return newArr;
 };
 
+// ASSERTION FUNCTION(S)
 const eqArrays = function(arr1, arr2) {
   return JSON.stringify(arr1) === JSON.stringify(arr2);
 };
@@ -25,6 +26,6 @@ const assertArraysEqual = function(actual, expected) {
   }
 };
 
-// TEST CASE(s)
+// TEST CASE(S)
 
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);

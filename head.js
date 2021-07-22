@@ -1,7 +1,10 @@
+// FUNCTION(S)
+
 const head = function(array) {
   return array[0];
 };
 
+// ASSERTION FUNCTION(S)
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`😀😀😀 Assertion Passed: ${actual} === ${expected}`);
@@ -9,6 +12,8 @@ const assertEqual = function(actual, expected) {
     console.log(`💣💣💣 Assertation Failed: ${actual} !== ${expected}`);
   }
 };
+
+// TEST CASE(S)
 
 assertEqual(head([5, 6, 7]), 5); // expected: pass;
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"); // expected: pass;

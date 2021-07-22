@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATION
+// ASSERTION FUNCTION(S)
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`😀😀😀 Assertion Passed: ${actual} === ${expected}`);
@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
+// TEST CASE(S)
 assertEqual("Lighthouse Labs", "Bootcamp"); // expected: fail
 assertEqual('Hello', 'Hello'); // expected: pass
 assertEqual(1, 3); // expected: fail

@@ -17,6 +17,7 @@ const without = function(source, itemsToRemove) {
   return newArr;
 };
 
+// ASSERTION FUNCTION(S)
 const eqArrays = function(arr1, arr2) {
   return JSON.stringify(arr1) === JSON.stringify(arr2);
 };
