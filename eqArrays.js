@@ -1,11 +1,11 @@
 const eqArrays = function(arr1, arr2) {
   return JSON.stringify(arr1) === JSON.stringify(arr2);
-}
+};
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`😀😀😀 Assertion Passed: ${actual} === ${expected}`);
-  } else {  
+  } else {
     console.log(`💣💣💣 Assertation Failed: ${actual} !== ${expected}`);
   }
 };

@@ -7,11 +7,11 @@ const flatten = function(array) {
         newArr.push(element[i]);
       }
     } else {
-      newArr.push(element)
+      newArr.push(element);
     }
   }
   return newArr;
-}
+};
 
 const eqArrays = function(arr1, arr2) {
   return JSON.stringify(arr1) === JSON.stringify(arr2);
@@ -27,4 +27,4 @@ const assertArraysEqual = function(actual, expected) {
 
 // TEST CASE(s)
 
-assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]); 
+assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
