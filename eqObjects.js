@@ -18,7 +18,6 @@ const eqObjects = function(object1, object2) {
   const obj1KeysArr = Object.keys(object1);
   const obj2KeysArr = Object.keys(object2);
   let result = obj1KeysArr.length === obj2KeysArr.length;
-
   if (result) {
     for (const key1 of obj1KeysArr) {
       if (result) {
