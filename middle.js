@@ -1,3 +1,5 @@
+const _ = require('./index');
+
 const middle = function(array) {
   const result = [];
   if (array.length === 1 || array.length === 2) {

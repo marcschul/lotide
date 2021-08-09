@@ -1,3 +1,5 @@
+const _ = require('./index');
+
 const tail = function(array) {
   let arrTail = array.slice(1);
   return arrTail;

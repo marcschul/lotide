@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@marcschul/lotide",
   "version": "1.0.0",
   "description": "A Javascript library developed by [LightHouse Lab's](https://www.lighthouselabs.ca/) student [Marc Schulmeister](https://github.com/marcschul).",
   "main": "assertArraysEqual.js",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/marcschul/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marc Schulmeister",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marcschul/lotide/issues"

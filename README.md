@@ -1,24 +1,31 @@
 # Lotide
 
-A Javascript library developed by [LightHouse Lab's](https://www.lighthouselabs.ca/) student [Marc Schulmeister](https://github.com/marcschul).
+A mini clone of the [Lodash](https://lodash.com) library.
 
-## Table of Contents
-  * Functions
-    * [assertArraysEqual](/assertArraysEqual.js)
-    * [assertEqual](/Equal.js)
-    * [assertObjectsEqual](/assertObjectsEqual.js)
-    * [countLetters](/countLetters.js)
-    * [countOnly](/countOnly.js)
-    * [eqArrays](/eqArrays.js)
-    * [eqObjects](/eqObjects.js)
-    * [findKey](/findKey.js)
-    * [findKeyByValue](/findKeyByValue.js)
-    * [flatten](flatten.js)
-    * [head](/head.js)
-    * [letterPositions](/letterPositions.js)
-    * [map](/map.js)
-    * [middle](/middle.js)
-    * [tail](/tail.js)
-    * [takeUntil](/takeUntil.js)
-    * [without](/without.js)
+## Purpose
 
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
+
+## Usage
+
+**Install it:**
+
+`npm install @marcschul/lotide`
+
+**Require it:**
+
+`const _ = require('@marcschul/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+The following functions are currently implemented:
+
+* `function1(...)`: description
+* `function2(...)`: description
+* `function3(...)`: description

@@ -1,3 +1,5 @@
+const _ = require('./index');
+
 const head = function(array) {
   return array[0];
 };
