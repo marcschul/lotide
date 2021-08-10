@@ -1,6 +1,6 @@
 {
   "name": "@marcschul/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Javascript library developed by Marc Schulmeister",
   "main": "index.js",
   "directories": {
