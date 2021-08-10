@@ -1,8 +1,8 @@
 {
   "name": "@marcschul/lotide",
   "version": "1.0.0",
-  "description": "A Javascript library developed by [LightHouse Lab's](https://www.lighthouselabs.ca/) student [Marc Schulmeister](https://github.com/marcschul).",
-  "main": "assertArraysEqual.js",
+  "description": "A Javascript library developed by Marc Schulmeister",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
