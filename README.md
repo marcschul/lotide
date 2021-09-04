@@ -39,7 +39,7 @@ The following functions are currently implemented:
 * `head(array)`: return first index found in an array
 * `letterPositions(sentance)`: Given an object, return the index position of each letter
 * `map(array, callback)`: Given an array and a func, creats a shallow copy of array and return the array.
-* `middle(array)`: return the middle of an array
-* `tail(array)`: return the tail of an array. If array has no tail return empty array
+* `middle(array)`: return the middle element of an array
+* `tail(array)`: return the tail element of an array. If array has no tail return empty array
 * `takeUntil(array, callback)`: return shallow copy of an filtered array
-* `without(source, itemsToRemove)`: return shallow copy of an array with remove
+* `without(source, itemsToRemove)`: return items from source array that are not in itemsToRemove array.
