@@ -38,7 +38,7 @@ The following functions are currently implemented:
 * `flatten(array)`: given a nested array, return array with no nesting
 * `head(array)`: return first index found in an array
 * `letterPositions(sentance)`: Given an object, return the index position of each letter
-* `map(array, callback)`: Given an array and a func, creats a shallow copy of array and return the array.
+* `map(array, callback)`: Given an array and a func, creates a shallow copy of array and return the array.
 * `middle(array)`: return the middle element of an array
 * `tail(array)`: return the tail element of an array. If array has no tail return empty array
 * `takeUntil(array, callback)`: return shallow copy of an filtered array
